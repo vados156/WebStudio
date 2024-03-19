@@ -281,3 +281,7 @@ body {
 	color: rgba(117, 117, 117, 1);
 
 }
+
+.filter:hover {
+	color: #2196F3;
+}
