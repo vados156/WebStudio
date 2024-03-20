@@ -261,10 +261,13 @@ body {
 
 .project {
 	flex: 1 1 30%;
+	border: 1px solid rgba(238, 238, 238, 1);
 }
 
 .project-img {
 	object-fit: cover;
+	height: 294px;
+	width: 100%;
 }
 
 .project-name {
