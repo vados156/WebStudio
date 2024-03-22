@@ -264,6 +264,7 @@ body {
 	border-bottom: 1px solid rgba(238, 238, 238, 1);
 	border-left:  1px solid rgba(238, 238, 238, 1);
 	border-right:  1px solid rgba(238, 238, 238, 1);
+	cursor: pointer;
 }
 
 .project-img {
@@ -274,6 +275,7 @@ body {
 
 .project-info {
 	margin: 20px 24px;
+	background: rgba(255, 255, 255, 1);
 }
 
 .project-name {
