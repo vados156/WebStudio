@@ -261,7 +261,9 @@ body {
 
 .project {
 	flex: 1 1 30%;
-	border: 1px solid rgba(238, 238, 238, 1);
+	border-bottom: 1px solid rgba(238, 238, 238, 1);
+	border-left:  1px solid rgba(238, 238, 238, 1);
+	border-right:  1px solid rgba(238, 238, 238, 1);
 }
 
 .project-img {
@@ -284,9 +286,31 @@ body {
 	font-weight: 400;
 	font-size: 16px;
 	color: rgba(117, 117, 117, 1);
-
 }
 
 .filter:hover {
-	background: #2196F3;
+	background: rgba(33, 150, 243, 1);
+}
+
+.proj-img-hov {
+	position: relative;
+}
+
+.proj-img-hov > div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	inset: 0;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	color: rgba(255, 255, 255, 1);
+	background: rgba(33, 150, 243, 0.9);
+	padding: 15px;
+	opacity: 0;
+}
+
+.proj-img-hov:hover > div {
+	opacity: 1;
 }
