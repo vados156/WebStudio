@@ -261,23 +261,58 @@ body {
 
 .project {
 	flex: 1 1 30%;
+	border-bottom: 1px solid rgba(238, 238, 238, 1);
+	border-left:  1px solid rgba(238, 238, 238, 1);
+	border-right:  1px solid rgba(238, 238, 238, 1);
+	cursor: pointer;
 }
 
 .project-img {
 	object-fit: cover;
+	height: 294px;
+	width: 100%;
+}
+
+.project-info {
+	margin: 20px 24px;
+	background: rgba(255, 255, 255, 1);
 }
 
 .project-name {
 	font-weight: 700;
 	font-size: 18px;
-	margin: 20px 24px 2px;
 	color: rgba(33, 33, 33, 1);
 }
 
 .project-filter {
 	font-weight: 400;
 	font-size: 16px;
-	margin: 2px 24px 20px;
 	color: rgba(117, 117, 117, 1);
+}
 
+.filter:hover {
+	background: rgba(33, 150, 243, 1);
+}
+
+.proj-img-hov {
+	position: relative;
+}
+
+.proj-img-hov > div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	inset: 0;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	color: rgba(255, 255, 255, 1);
+	background: rgba(33, 150, 243, 0.9);
+	padding: 15px;
+	opacity: 0;
+}
+
+.proj-img-hov:hover > div {
+	opacity: 1;
 }
