@@ -313,6 +313,6 @@ body {
 	opacity: 0;
 }
 
-.proj-img-hov:hover > div {
+.project:hover > div div {
 	opacity: 1;
 }
